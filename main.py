@@ -7,7 +7,7 @@ from pprint import pprint
 load_dotenv()
 SERPAPI_KEY = os.getenv("API_KEY")
 
-def generate_flexible_date_pairs(days_ahead=3, max_trip_length=10):
+def generate_flexible_date_pairs(days_ahead=30, max_trip_length=10):
     today = datetime.today()
     date_pairs = []
 
@@ -93,4 +93,5 @@ if __name__ == "__main__":
             found_any = True
 
     if not found_any:
+
         print("\n😕 No cheap flights found under $125 in the date range.")

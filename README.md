@@ -60,6 +60,6 @@ Technologies Used
 | pprint | Clean console output | 
 
 
-🧠 Author
+Author
 Developed by Andrew, a senior Biology student with a passion for geospatial data and Python automation.
 

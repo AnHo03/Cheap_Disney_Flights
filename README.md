@@ -27,7 +27,7 @@ API_KEY=your_serpapi_key_here
 
 Usage
 Run the script directly:
-python flight_finder.py
+python main.py
 
 
 By default, it:

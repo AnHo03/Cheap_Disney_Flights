@@ -17,8 +17,6 @@ Requirements
   
 Installation
 - Clone the repository
-git clone https://github.com/your-username/flight-price-finder.git
-cd flight-price-finder
 
 - Install dependencies
 pip install -r requirements.txt

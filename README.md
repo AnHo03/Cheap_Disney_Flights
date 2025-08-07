@@ -1,17 +1,20 @@
 Flexible Flight Price Finder
 Absolutely! Here's a professional, well-structured README.md tailored for your flight search script using SerpAPI:
 
-Flexible Flight Price Finder
+
 A Python script that searches for round-trip flights between Houston (IAH) and Orlando (MCO) using SerpAPI's Google Flights engine. It scans multiple date combinations and flags flights under a specified price threshold.
+
 Features
 - Generates flexible outbound/return date pairs
 - Queries SerpAPI for flight data
 - Filters results by price (default: $125)
 - Handles API errors and quota limits gracefully
 - Outputs matching flights with airline and pricing info
+
 Requirements
 - Python 3.7+
 - SerpAPI account with an active API key
+  
 Installation
 - Clone the repository
 git clone https://github.com/your-username/flight-price-finder.git
